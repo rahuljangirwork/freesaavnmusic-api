@@ -133,7 +133,7 @@ Home.get('/', (c) => {
             <a
               target="_blank"
               class="p-4 sm:p-8 hover:bg-opacity-5 hover:bg-white rounded-lg duration-100 sm:col-span-4"
-              href="https://github.com/sumitkolhe/jiosaavn-api"
+              href="https://github.com/rahuljangirwork/freesaavnmusic-api"
             >
               <div class="flex flex-col">
                 <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-green-500 text-green-500">
@@ -147,7 +147,7 @@ Home.get('/', (c) => {
             <a
               target="_blank"
               class="p-4 sm:p-8 hover:bg-opacity-5 hover:bg-white rounded-lg duration-100 sm:col-span-4"
-              href="https://github.com/sumitkolhe/jiosaavn-api/issues"
+              href="https://github.com/rahuljangirwork/freesaavnmusic-api/issues"
             >
               <div class="flex flex-col">
                 <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-violet-500 text-violet-500">
@@ -166,7 +166,7 @@ Home.get('/', (c) => {
                 <span class="text-xs uppercase bg-opacity-15 rounded text-center max-w-fit px-2 py-1 font-bold tracking-wide bg-blue-500 text-blue-500">
                   Contact
                 </span>
-                <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Sumit Kolhe</span>
+                <span class="text-neutral-200 font-bold text-lg sm:text-xl md:text-2xl mt-2">Rahul Jangir</span>
                 <div class="text-neutral-500 mt-2">
                   Have a question or need help? Reach out on{' '}
                   <a
@@ -179,7 +179,7 @@ Home.get('/', (c) => {
                   </a>
                   ,{' '}
                   <a
-                    href="https://twitter.com/thesumitkolhe"
+                    href="https://x.com/rahuljangirwork"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:underline text-sky-500"
@@ -188,12 +188,12 @@ Home.get('/', (c) => {
                   </a>
                   , or{' '}
                   <a
-                    href="https://t.me/sumitkolhe"
+                    href="https://rahuljangir-works.pages.dev/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="hover:underline text-pink-500"
                   >
-                    Telegram.
+                    Portfolio.
                   </a>
                 </div>
               </div>

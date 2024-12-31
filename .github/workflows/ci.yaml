@@ -28,6 +28,6 @@ jobs:
 
       - name: Run Tests
         run: bun run test
-
+            
       - name: Try to build
         run: bun run build
