@@ -1,51 +1,74 @@
-# JioSaavn API
+# JioSaavn API (Unofficial)
 
-![GitHub License](https://img.shields.io/github/license/sumitkolhe/jiosaavn-api)
-![GitHub Release](https://img.shields.io/github/v/release/sumitkolhe/jiosaavn-api)
+An **unofficial API** for downloading high-quality songs, albums, playlists, and more from **JioSaavn**.
 
-An Unofficial API for downloading high-quality songs, albums, playlists, and more from [JioSaavn](https://jiosaavn.com).
+This project is built using **Bun**, a fast JavaScript runtime, and is deployed on **Cloudflare Workers** for low-latency, global distribution.
 
 ## 📚 Documentation
 
-Check out the [API documentation](https://saavn.dev/docs) for detailed information on how to use the API.
+For detailed information on how to use the API, check out the [API documentation](docs/API.md).
 
-## 📰 Changelog
+## 🚀 Running Locally
 
-For a detailed list of changes, see the [CHANGELOG](CHANGELOG.md).
+You can easily set up the project locally for development or testing purposes.
 
-## 🔌 Running Locally
+### Prerequisites
 
-> [!NOTE]
-> You need `Bun(1.0.26+)` or `Node.js(v18+)`
+1. **Install Bun**:  
+   Bun is the JavaScript runtime and package manager. Follow the installation instructions from the official website: [Bun](https://bun.sh/).
 
-1. Clone the repository:
-
-   ```sh
+2. **Clone the repository**:
+   ```bash
    git clone https://github.com/rahuljangirwork/freesaavnmusic-api
-   cd jiosaavn-api
-   ```
+   cd freesaavnmusic-api
 
-2. Install the required dependencies:
 
-   ```sh
+### Install dependencies:
+
+1. **Install dependencies**:  
+   ```bash
    bun install
-   ```
 
-3. Launch the development server:
-
-   ```sh
+2. **Run the development server**:
+   ```bash
    bun run dev
-   ```
 
-## ☁️ Deploying Your Own Instance
 
-You can easily deploy your own instance of the API by clicking the button below:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/rahuljangirwork/freesaavnmusic-api)
+### Building for Deployment
 
-> [!TIP]
-> To ensure the API provides results in the intended language, configure the [Serverless Function Region](https://vercel.com/docs/concepts/functions/serverless-functions/regions) in Vercel to `Mumbai, India (South) - > bom1`.
+**Before deploying your project, make sure to build it:**
 
-## 📜 License
+```bash
+bun run build
+```
 
-This project is distributed under the [MIT License](https://opensource.org/licenses/MIT). For more information, see the [LICENSE](LICENSE) file included in this repository.
+This will compile the TypeScript code into JavaScript in the dist/ folder.
+
+### Deploying to Cloudflare Workers
+You can deploy this project on Cloudflare Workers for global performance optimization.
+
+1. Install Wrangler (Cloudflare CLI Tool)
+Wrangler is the CLI tool to manage and deploy Cloudflare Workers. Install it globally:
+
+```bash
+npm install -g wrangler
+```
+2. Log in to Cloudflare
+Authenticate Wrangler with your Cloudflare account:
+
+```bash
+wrangler login
+```
+3. Deploy to Cloudflare Workers
+Deploy the project using Wrangler:
+
+```bash
+wrangler deploy
+```
+After deployment, Cloudflare will provide a live URL, for example:
+https://your-project-name.cloudflareworkers.com
+
+
+
+
